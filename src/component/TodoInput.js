@@ -25,6 +25,7 @@ export default class TodoInput extends Component {
             />
           </div>
           <button
+      disabled={item ? false : true}
             className={
               editItem
                 ? "btn btn-block btn-success text-capitalize mt-3"
